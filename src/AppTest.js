@@ -27,9 +27,9 @@ render() {
     return(
         <div className="full-app">
             {/* jsx stuff goes here */}
-            <p className="card-text">{this.state.choice}</p>
+            <p className="choice-text">{this.state.choice}</p>
 
-            <button className="btn btn-primary" onClick={this.CheckListClick}>
+            <button className="check-list" onClick={this.CheckListClick}>
             Check List
           </button>
         </div>
